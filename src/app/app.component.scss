@@ -1,0 +1,37 @@
+.container{
+    width:80%;
+    margin:auto;
+    .test-header{
+        text-align: center;
+        padding: 0.8em;
+    }
+    .test-body{
+        display: flex;
+        justify-content: center;
+        .common{
+            width:40%;
+            min-height: 20vh;
+            margin-right: 1em;
+
+            .active{
+                background-color:blueviolet;
+            }
+
+            .btn-group{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+        .outlet{
+            border:2px solid black;
+            box-sizing: border-box;
+            padding-left: 1em;
+        }
+
+        .test-button{
+            padding:1em;
+            margin: 0.5em;
+        }
+    }
+    
+}
