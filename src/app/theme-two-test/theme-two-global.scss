@@ -1,0 +1,5 @@
+@import '../../library/button/button.component';
+
+$theme-color:	#FFA500;
+
+:host ::ng-deep {@include button-themesp($theme-color);}

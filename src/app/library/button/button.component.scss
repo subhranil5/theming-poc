@@ -1,3 +1,9 @@
+
+ @mixin button-themesp($theme) {
+     .theme-btn{
+        border-color: $theme;
+     }
+ }
 .custom-btn{
     padding: 0.6em;
     margin: 0.3em;
