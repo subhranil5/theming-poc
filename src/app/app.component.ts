@@ -1,4 +1,4 @@
-import { Component,ViewChild,ElementRef } from '@angular/core';
+import { Component} from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -12,8 +12,6 @@ import { Component,ViewChild,ElementRef } from '@angular/core';
 export class AppComponent {
   title = 'themepoc';
   theme:string;
-
-  @ViewChild('addtheme') containerdiv:ElementRef;
 
   addWMtheme(){
     
