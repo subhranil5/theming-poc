@@ -1,10 +1,12 @@
 
- @mixin button-themesp($theme) {
-     .theme-btn{
-        border-color: $theme;
-     }
- }
 .custom-btn{
     padding: 0.6em;
     margin: 0.3em;
+    
+    :host-context(.work-management) & {
+        background-color: rgb(87, 114, 235);
+      }
+      :host-context(.qpp) & {
+          background-color: #e63b08;
+      }
 }
